@@ -34,12 +34,12 @@ pip install -r requirements.txt
   ```shell
 
   python train.py -opt options/train/Simu_S1.yml
+  ```
   ```shell
-
   Stage-2 (S2)
   
   python train.py -opt options/train/Simu_S2.yml
-
+  ```
   
 
 
