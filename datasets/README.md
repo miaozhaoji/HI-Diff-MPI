@@ -2,20 +2,13 @@ For training and testing, the directory structure is as follows:
 
 ```shell
 |-- datasets
-    |-- GoPro
+    |-- MPIdata
         |-- train
-            |-- input
-            |-- target
+            |-- low
+            |-- label
         |-- test
-            |-- input
-            |-- target
-        |-- crop
-            |-- train
-                |-- input
-                |-- target
-            |-- val
-                |-- input
-                |-- target
+            |-- low
+            |-- label
     |-- RealBlur
         |-- test
             |-- RealBlur_R
