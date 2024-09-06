@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
   Stage-1 (S1) 
   ```shell
-  # Synthetic, GoPro, 2 Stages, 4 GPUs
+
   python train.py -opt options/train/Simu_S1.yml
 
 
