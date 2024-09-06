@@ -16,8 +16,6 @@
 - NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
 
 ```bash
-# Clone the github repo and go to the default directory 'HI-Diff'.
-git clone https://github.com/zhengchen1999/HI-Diff.git
 cd HI-Diff
 conda create -n hi_diff python=3.9
 conda activate hi_diff
