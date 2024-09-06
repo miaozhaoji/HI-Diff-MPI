@@ -47,41 +47,16 @@ pip install -r requirements.txt
 
 ## Testing
 
-- Download the pre-trained [models](https://drive.google.com/drive/folders/1X3oos6dmtDDo9IqC6SK5RiujMYE6Y22q?usp=drive_link) and place them in `experiments/pretrained_models/`.
+- 测试的配置在 `options/test/RealData.yml`中，根据第84行指定的目录配置放置训练好的模型.
 
-- Download [test](https://drive.google.com/file/d/1pUFsJQleqCGTeeHnsSukJU0oSbjjWIJP/view?usp=drive_link) (GoPro, HIDE, RealBlur) datasets, place them in `datasets/`.
-
-- Run the following scripts. The testing configuration is in `options/test/`.
-
-  Synthetic, reproduces results in Table 2 of the main paper
 
   ```python
-  # generate images
-  python test.py -opt options/test/GoPro.yml
-  # test PSNR/SSIM
-  evaluate_gopro_hide.m
-  python evaluate_realblur.py --dataset RealBlur_R --dir results/test_HI_Diff_GoPro
-  python evaluate_realblur.py --dataset RealBlur_J --dir results/test_HI_Diff_GoPro
+
+  python test.py -opt options/test/RealData.yml
+
   ```
 
-  Real-World, RealBlur-R, reproduces results in Table 3 of the main paper
-
-  ```python
-  # generate images
-  python test.py -opt options/test/RealBlur_R.yml
-  # test PSNR/SSIM
-  python evaluate_realblur.py --dataset RealBlur_R --dir results/test_HI_Diff_RealBlur_R
-  ```
-
-  Real-World, RealBlur-J, reproduces results in Table 3 of the main paper
-
-  ```python
-  # generate images
-  python test.py -opt options/test/RealBlur_J.yml
-  # test PSNR/SSIM
-  python evaluate_realblur.py --dataset RealBlur_J --dir results/test_HI_Diff_RealBlur_J
-  ```
-
+  
 - The output is in `results/`.
 
 ## Results
