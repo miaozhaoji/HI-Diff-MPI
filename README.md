@@ -60,42 +60,7 @@ pip install -r requirements.txt
 - The output is in `results/`.
 
 ## Results
-
-We achieved state-of-the-art performance on synthetic and real-world blur dataset. Detailed results can be found in the paper.
-
-<details>
-<summary>Evaluation on Synthetic Datasets (click to expand)</summary>
-
-- quantitative comparisons in Table 2 of the main paper
-
-<p align="center">
-  <img width="900" src="figs/Tab-1.png">
-</p>
-
-- visual comparison in Figure 4 of the main paper
-
-<p align="center">
-  <img width="900" src="figs/Fig-1.png">
-</p>
-</details>
-
-<details>
-<summary>Evaluation on Real-World Datasets (click to expand)</summary>
-
-
-- quantitative comparisons in Table 3 of the main paper
-
-<p align="center">
-  <img width="900" src="figs/Tab-2.png">
-</p>
-
-- visual comparison in Figure 5 of the main paper
-
-<p align="center">
-  <img width="900" src="figs/Fig-2.png">
-</p>
-
-</details>
+ To do
 
 ## Citation
 
