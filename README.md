@@ -43,7 +43,7 @@ pip install -r requirements.txt
   
 
 
-- The training experiment is in `experiments/`.
+- 训练结果在 in `experiments/`.
 
 ## Testing
 
