@@ -21,7 +21,8 @@ conda create -n hi_diff python=3.9
 conda activate hi_diff
 pip install -r requirements.txt
 ```
-
+## Installation
+按照train_test_val_split.py划分数据集，确保同一仿体不会同时出现在训练集和测试集中，避免数据泄露
 
 
 ## Training
